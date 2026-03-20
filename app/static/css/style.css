@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #121212;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* header */
+header {
+    background: linear-gradient(to right, #24518c, #216c9f); /* KEEP ORIGINAL */
+    color: rgb(245, 169, 169);
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* navbar */
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* IMPORTANT FIX */
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: #ffd700; /* KEEP YOUR YELLOW */
+}
+
+/* footer */
+footer {
+    background-color: #343a40; /* KEEP ORIGINAL */
+    color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* login box */
+.login-box {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    box-sizing: border-box;
+    margin-bottom: 6px;
+}
+
+/* inputs */
+input[type="text"], input[type="password"] {
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid #555;
+}
+
+/* buttons (KEEP ORIGINAL COLORS) */
+.btn {
+    background-color: #25415e;  /* BLUE stays */
+    color: wheat;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* task box */
+.task-box {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* table */
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-table th {
+    background-color: #f2f2f2; /* KEEP ORIGINAL */
+}
+
+.task-table td {
+    border-bottom: 1px solid #444;
+}
+
+/* KEEP ALL YOUR COLORS BELOW EXACTLY SAME */
+.badge {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: wheat;
+}
+
+.badge.pending {
+    background-color: #ffc107; /* yellow */
+}
+
+.badge.working {
+    background-color: #17a2b8; /* blue */
+}
+
+.badge.done {
+    background-color: #28a745; /* green */
+}
+
+.btn-delete {
+    background-color: #dc3545; /* red */
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+.btn-small {
+    background-color: #6c767c;
+    color: white;
+}
+
+.btn-small:hover {
+    background-color: #495057;
+}
+
+.btn-clear {
+    background-color: #dc3545;
+}
+
+.btn-clear:hover {
+    background-color: #c82333;
+}
